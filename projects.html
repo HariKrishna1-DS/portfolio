@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projects — Harikrishna Bonala</title>
+<meta name="description" content="Machine learning and data analysis projects by Harikrishna Bonala." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="toolbar">
+  <div class="toolbar-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span class="brand-name">Harikrishna Bonala</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="cell">
+    <div class="cell-marker"><span class="exec-dot" aria-hidden="true"></span>In&nbsp;[1]:</div>
+    <div class="cell-body">
+      <p class="eyebrow">Selected work</p>
+      <h1>Projects</h1>
+      <p class="lede">Three projects spanning regression, NLP-driven classification, and business intelligence — each with the problem, approach, and result.</p>
+    </div>
+  </section>
+
+  <section class="cell">
+    <div class="cell-marker"><span class="exec-dot" aria-hidden="true"></span>In&nbsp;[2]:</div>
+    <div class="cell-body">
+
+      <article class="project" id="house-price">
+        <div class="project-head">
+          <h3>House Price Prediction Using Machine Learning</h3>
+          <span class="project-meta">Personal project</span>
+        </div>
+        <div class="stack-row">
+          <span class="chip">Python</span>
+          <span class="chip">Scikit-learn</span>
+          <span class="chip">Pandas</span>
+        </div>
+        <ul>
+          <li>Developed a predictive model to estimate house prices using Linear Regression and Random Forest algorithms.</li>
+          <li>Conducted data preprocessing including handling missing values, feature encoding, and normalization to improve model accuracy.</li>
+          <li>Performed exploratory data analysis (EDA) to identify the key features influencing property prices.</li>
+          <li>Evaluated model performance using R² score, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).</li>
+        </ul>
+        <div class="output-block">
+          <span class="out-tag">Out[2]:</span> evaluation → <span class="out-metric">R² score</span>, <span class="out-metric">MAE</span>, <span class="out-metric">RMSE</span> across Linear Regression &amp; Random Forest
+        </div>
+      </article>
+
+      <article class="project" id="women-safety">
+        <div class="project-head">
+          <h3>Women Safety Analysis in Indian Cities Using Machine Learning</h3>
+          <span class="project-meta">Final year project · Dec 2024 – Apr 2025</span>
+        </div>
+        <div class="stack-row">
+          <span class="chip">Python</span>
+          <span class="chip">NLP</span>
+          <span class="chip">Logistic Regression</span>
+          <span class="chip">SVM</span>
+        </div>
+        <ul>
+          <li>Designed and implemented a machine learning pipeline to analyze public sentiment and safety concerns using Twitter data.</li>
+          <li>Applied NLP techniques including tokenization, stop-word removal, and sentiment analysis on collected tweets.</li>
+          <li>Used Logistic Regression and SVM classifiers to categorize tweets into safety-related themes and identify high-risk zones.</li>
+          <li>Visualized geographic and temporal trends using heatmaps and word clouds, delivering actionable insights for policymakers.</li>
+        </ul>
+        <div class="output-block">
+          <span class="out-tag">Out[2]:</span> high-risk zones mapped via <span class="out-metric">heatmaps</span> + <span class="out-metric">word clouds</span> across classified tweet themes
+        </div>
+      </article>
+
+      <article class="project" id="ipl-auction">
+        <div class="project-head">
+          <h3>IPL 2023 Auction Analysis</h3>
+          <span class="project-meta">Data visualization project</span>
+        </div>
+        <div class="stack-row">
+          <span class="chip">Power BI</span>
+          <span class="chip">Excel</span>
+          <span class="chip">DAX</span>
+        </div>
+        <ul>
+          <li>Built an interactive Power BI dashboard to analyze player auction data from IPL 2023, covering team spending and bidding trends.</li>
+          <li>Visualized key metrics: total spend per team, most expensive players, and country-wise player distribution.</li>
+          <li>Implemented dynamic filtering and drill-down capabilities using DAX functions for multi-dimensional analysis.</li>
+        </ul>
+        <div class="output-block">
+          <span class="out-tag">Out[2]:</span> dashboard → <span class="out-metric">spend per team</span>, <span class="out-metric">top bids</span>, <span class="out-metric">country distribution</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>&copy; 2026 Harikrishna Bonala · Bangalore, India</span>
+    <span><a href="mailto:harikrishnasanna@gmail.com">harikrishnasanna@gmail.com</a> · <a href="tel:+919182428534">+91 91824 28534</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
